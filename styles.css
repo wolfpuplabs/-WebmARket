@@ -14,6 +14,18 @@ header {
 header h1 {
     margin: 0;
 }
+header .btn {
+    background: #f8b400;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+header .btn:hover {
+    background: #e09e00;
+}
 .hero {
     background: url('your-hero-image.jpg') no-repeat center center/cover;
     color: #fff;
